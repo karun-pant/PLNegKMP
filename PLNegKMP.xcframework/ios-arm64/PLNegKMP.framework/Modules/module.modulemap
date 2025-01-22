@@ -1,0 +1,8 @@
+framework module "PLNegKMP" {
+    umbrella header "PLNegKMP.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}
