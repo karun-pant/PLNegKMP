@@ -2,20 +2,20 @@
 import PackageDescription
 
 let package = Package(
-   name: "PLNegKMP",
+   name: "PLCrossPlatformCore",
    platforms: [
        .iOS(.v14),
    ],
    products: [
        .library(
-           name: "PLNegKMP",
-           targets: ["PLNegKMP"]
+           name: "PLCrossPlatformCore",
+           targets: ["PLCrossPlatformCore"]
        ),
    ],
    targets: [
        .binaryTarget(
-           name: "PLNegKMP",
-           path: "./PLNegKMP.xcframework"
+           name: "PLCrossPlatformCore",
+           path: "./pLCrossPlatformCore.xcframework"
        ),
    ]
 )
