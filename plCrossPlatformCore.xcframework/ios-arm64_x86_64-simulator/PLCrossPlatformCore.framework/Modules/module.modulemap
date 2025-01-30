@@ -1,0 +1,5 @@
+framework module "PLCrossPlatformCore" {
+    umbrella header "PLCrossPlatformCore.h"
+    export *
+    module * { export * }
+}
